@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard IPWAW</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Josefin+Sans:ital,wght@0,700;1,700&family=Limelight&family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <!-- navbar-expand-md untuk membuat hamburger menu -->
+    <nav class="navbar navbar-expand bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">IPWAW</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">IPWAW</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#foot">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="hero text-center">
+      <img
+        src="img/wily.jpg"
+        alt="Wily Anggara Wijaya"
+        width="200"
+        class="rounded-circle img-thumbnail"
+        data-aos="flip-down"
+        data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-once="false"
+      />
+      <h2 data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+        I Putu Wily Anggara Wijaya
+      </h2>
+      <p
+        class="job"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
+        SANITARIAN | PART TIME DEV
+        <span class="job-span">*hopefully</span>
+      </p>
+      <div class="gelombang">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 320">
+          <path
+            fill="#ffff"
+            fill-opacity="1"
+            d="M0,128L40,149.3C80,171,160,213,240,229.3C320,245,400,235,480,197.3C560,160,640,96,720,101.3C800,107,880,181,960,197.3C1040,213,1120,171,1200,149.3C1280,128,1360,128,1400,128L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Info Section Start -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+              data-aos-once="false"
+            >
+              About Me
+            </h2>
+            <p
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+              data-aos-once="false"
+            >
+              Sanitarian di RSUD Sanjiwani <br />
+              Sejak 2023.
+            </p>
+            <p
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+              data-aos-once="false"
+            >
+              Part time Website Developer <br />
+              Masih belajar cara membuat website, belajar otodidak thanks to
+              Youtube.
+            </p>
+            <p
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+              data-aos-once="false"
+            >
+              Suka belanja? <br />
+              Mampir dulu di
+              <a href="https://shopee.co.id/vendendo_" target="_blank">Sini</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Info Section End -->
+
+    <!-- Project Section Start -->
+    <section id="project" class="project">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span
+              data-aos="fade-down"
+              data-aos-offset="250"
+              data-aos-duration="1000"
+              >IPWAW's</span
+            >
+            <h2
+              data-aos="fade-down"
+              data-aos-offset="250"
+              data-aos-duration="1000"
+            >
+              Projects
+            </h2>
+            <!-- <p>Timeline Project.</p> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/klinik-ratih.png)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="zoom-in-up"
+                  data-aos-offset="250"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                >
+                  <div class="timeline-heading">
+                    <h3>Klinik Ratih</h3>
+                    <span>Desember 2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Website Klinik Ratih dibuat pada tahun 2021 tanpa berbekal
+                      pengalaman dengan menggunakan google sites.
+                    </p>
+                    <a
+                      href="https://sites.google.com/view/klinikratih"
+                      target="_blank"
+                      >Kunjungi Website</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/dashboard.png)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="zoom-in-up"
+                  data-aos-offset="250"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <div class="timeline-heading">
+                    <h3>This Personal Dashboard</h3>
+                    <span>November 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Sedang belajar developing website sederhana.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/soon.jpg)"
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="zoom-in-up"
+                  data-aos-offset="250"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  <div class="timeline-heading">
+                    <h3>3rd Project</h3>
+                    <span>Soon</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Hopefully Soon.</p>
+                  </div>
+                </div>
+              </li>
+              <!-- <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="
+                    background-image: url(https://picsum.photos/id/815/300/300);
+                  "
+                ></div>
+                <div
+                  class="timeline-panel"
+                  data-aos="zoom-in-up"
+                  data-aos-offset="200"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  <div class="timeline-heading">
+                    <h3>Menikah</h3>
+                    <span>7 November 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Semoga menjadi awal dari kisah yang tak berujung dan penuh
+                      kebahagiaan.
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffff"
+            fill-opacity="1"
+            d="M0,320L30,266.7C60,213,120,107,180,74.7C240,43,300,85,360,90.7C420,96,480,64,540,64C600,64,660,96,720,144C780,192,840,256,900,245.3C960,235,1020,149,1080,117.3C1140,85,1200,107,1260,149.3C1320,192,1380,256,1410,288L1440,320L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h2
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-duration="1000"
+              >
+                Contact Me
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-content-center justify-content-center">
+          <div class="col-8">
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
+              <strong>Terima Kasih!</strong> pesan anda telah terkirim, anda
+              akan dihubungi melalui Email oleh IPWAW.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+        <form
+          class="row g-3 align-items-center justify-content-center"
+          method="POST"
+          action="#"
+          id="my-form"
+          name="my-form"
+          data-aos="zoom-in-down"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="col-8">
+            <div class="mb-1">
+              <label for="Nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="mb-4">
+              <label for="Email" class="form-label">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="email@mail.com"
+              />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Pesan / Kesan / Saran / Pertanyaan"
+                id="pesan"
+                name="pesan"
+                style="height: 100px"
+              ></textarea>
+              <label for="Pesan">Pesan / Kesan / Saran / Pertanyaan</label>
+            </div>
+          </div>
+          <div class="col-8" style="margin-top: 25px">
+            <button type="submit" class="btn btn-primary btn-kirim">
+              Kirim
+            </button>
+            <button
+              class="btn btn-primary btn-loading d-none"
+              type="button"
+              disabled
+            >
+              <span
+                class="spinner-grow spinner-grow-sm"
+                aria-hidden="true"
+              ></span>
+              <span role="status">Mengirim...</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="container" id="foot">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2023 Wily Anggara Wijaya. All Rights Reserved.</small
+            >
+            <small class="block"
+              >&copy; Design by
+              <a href="https://instagram.com/ipwaw" target="_blank">ipwaw</a
+              >.</small
+            >
+            <ul class="mt-3">
+              <li>
+                <a href="https://instagram.com/ipwaw" target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/wilywijaya/" target="_blank"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/ip-waw" target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Script untuk AOS Animasi -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+
+    <!-- Script untuk tidak redirect setelah submit Contact -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx43khZ-MzeI-LHIFIuJ1TOyVQIjIZZ4con-_ggE6dhjmIh4YC1_PNXpgRrk6gM2M1R/exec";
+      const form = document.forms["my-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit di klik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // hilangkan tombol loading, tampilkan tombol kirim
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert(
+              "Pesan anda berhasil terkirim! IPWAW akan menghubungi anda melalui Email untuk lebih lanjut"
+            );
+          });
+        });
+      });
+    </script> -->
+  </body>
+</html>
