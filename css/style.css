@@ -61,7 +61,7 @@ body {
 .project h2,
 .contact h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: var(--primary);
   margin-top: 1rem;
@@ -91,6 +91,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.info p {
+  font-size: 1.3rem;
+}
+
 .info a {
   font-weight: bold;
   color: var(--primary);
@@ -111,25 +115,20 @@ body {
   align-items: center;
 }
 
-.project,
-.gallery {
+.project {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
-.project span,
-.gallery span,
-.gifts span {
+.project span {
   text-transform: uppercase;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: block;
-  margin-bottom: 1rem;
 }
 
-.project p,
-.gallery p {
+.project p {
   font-size: 1rem;
   font-weight: 300;
   color: #666;
@@ -257,45 +256,6 @@ body {
   border-right-width: 14px;
   left: -13px;
   right: auto;
-}
-
-.project .waktu {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--primary);
-}
-
-.project .alamat {
-  font-size: 1.1rem;
-  margin-top: 2rem;
-}
-
-.project .description {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.project .card {
-  background-color: rgba(255, 255, 255, 0.798) !important;
-  color: #4b4949 !important;
-  border: 1px solid var(--primary);
-}
-
-.project .card-header {
-  border-bottom: 1px solid var(--primary);
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-.project .card-body {
-  font-size: 1rem;
-}
-
-.project .card-footer {
-  border-top: 1px solid var(--primary);
-  font-size: 0.9rem;
-  font-weight: 300;
 }
 /* Projects Section End */
 
